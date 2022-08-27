@@ -6,3 +6,12 @@ $(".tablinks").click(function(e){
     $(".tabcontent").hide();
     $("#" + data).show();
 });
+
+$(".cart-icon").click(function (e) { 
+    $(".cart-area").toggleClass("open");
+});
+$(".list-close a").click(function (e) { 
+    e.preventDefault();
+    $(".cart-area").removeClass("open");
+    
+ });
