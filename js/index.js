@@ -15,3 +15,26 @@ $(".list-close a").click(function (e) {
     $(".cart-area").removeClass("open");
     
  });
+
+ $(".header-bar").click(function (e) { 
+    e.preventDefault();
+    $(this).toggleClass("close");
+    $(".mobile-menu").toggleClass("open");
+ });
+
+ $(".menu-item-has-children > a").click(function (e) { 
+    e.preventDefault();
+ });
+ $(".mobile-menu .menu-item-has-children").click(function (e) { 
+    e.preventDefault();
+    if($(this).hasClass("open"))
+    {
+        $(this).children("ul").slideUp(1000,"swing");
+        $(this).removeClass("open");
+        
+    }else{
+        $(this).addClass("open");
+        $(this).children("ul").slideDown(1000,"swing");
+    }
+    
+ });
