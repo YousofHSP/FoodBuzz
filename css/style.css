@@ -1377,6 +1377,63 @@ footer .news_letter ul.follow_us a {
   transition: all 0.3s ease;
 }
 
+.page-header {
+  padding: 75px 0;
+}
+.page-header .page-title h3 {
+  margin-bottom: 10px;
+  line-height: 1;
+  font-weight: 600;
+}
+.page-header .page-title .breadcrumb {
+  background: transparent;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+.page-header .page-title .breadcrumb li {
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 0px 10px;
+  position: relative;
+}
+.page-header .page-title .breadcrumb li:last-child::after {
+  position: unset;
+}
+.page-header .page-title .breadcrumb li::after {
+  width: 5px;
+  height: 2px;
+  top: 50%;
+  right: -3px;
+  background: #362725;
+  transform: translateY(-50%);
+  position: absolute;
+  content: "";
+}
+.page-header .page-title .breadcrumb li a {
+  color: #362725;
+}
+.page-header.style-2 {
+  background: url("../assets/images/page-header/bg.jpg") no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+.page-header.style-2 .page-title {
+  margin-bottom: 0;
+}
+.page-header.style-2 .page-title h3 {
+  color: #d60231;
+}
+.page-header.style-2 .page-title .breadcrumb li {
+  color: #d60231;
+}
+.page-header.style-2 .page-title .breadcrumb li a {
+  color: #362725;
+}
+.page-header.style-2 .page-title .breadcrumb li::after {
+  background: #362725;
+}
+
 @media (min-width: 576px) {
   .section-header {
     margin-bottom: 50px;
@@ -1416,6 +1473,9 @@ footer .news_letter ul.follow_us a {
   .bg-table {
     margin-bottom: 0;
     height: 500px;
+  }
+  .page-header {
+    padding: 150px 0;
   }
 }
 @media (max-width: 1400px) {
