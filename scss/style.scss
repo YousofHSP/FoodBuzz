@@ -1512,6 +1512,101 @@ footer{
     }
 }
 
+.coming-soon {
+    background: #f7f1e9;
+    padding: 100px 0;
+    .coming-area {
+        .section-header {
+            margin-bottom: 0;
+            p {
+                max-width: 450px;
+            }
+        }
+        .section-wrapper {
+            .countdown {
+                margin: 50px 0 0;
+                li {
+                    padding: 0;
+                    text-align: center;
+                    h3 {
+                        padding: 0 25px;
+                        margin-bottom: 0;
+                        color: #ff739c;
+                        position: relative;
+                        &::after {
+                            right: 0;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            content: ":";
+                            color: #362725;
+                            position: absolute
+                        }
+                    }
+                    p {
+                        margin-top: 20px;
+                        color: #362725;
+                    }
+                }
+            }
+            .news-letter {
+                padding: 0;
+                margin-top: 20px;
+                .section-wrapper {
+                    background: #fff;
+                    .news-form {
+                        width: 100%;
+                        text-align: center;
+                        form {
+                            position: relative;
+                            border-radius: 3px;
+                            background: #fff;
+                            width: 100%;
+                            label {
+                                width: 100%;
+                                margin-bottom: 0;
+                                position: relative;
+                                display: inline-block;
+                                input[type="email"] {
+                                    padding: 20px;
+                                    padding-left: 50px;
+                                }
+                                input {
+                                    margin-bottom: 0;
+                                    border: none;
+                                    outline: none;
+                                }
+                                i {
+                                    content: "\efb4";
+                                    width: 30px;
+                                    height: 30px;
+                                    top: 18px;
+                                    left: 10px;
+                                    text-align: center;
+                                    font-size: 24px;
+                                    color: #d60231;
+                                    font-family: IcoFont !important;
+                                    position: absolute;
+                                }
+                            }
+                            input[type="submit"] {
+                                font-size: 15px;
+                                font-weight: 700;
+                                height: 54px;
+                                border: none;
+                                outline: none;
+                                color: #fff;
+                                background: #d60231;
+                                border-radius: 3px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (min-width: 576px) {
     .section-header {
         margin-bottom: 50px;
@@ -1530,6 +1625,25 @@ footer{
             width: calc(100% / 2 - 15px);
         }
     }
+    .coming-soon .coming-area .section-wrapper .news-letter .section-wrapper .news-form form{
+        label {
+            input[type="email"] {
+                padding-right: 170px;
+            }
+            i {
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        input[type="submit"] {
+            position: absolute;
+            top: 50%;
+            right: 5px;
+            transform: translateY(-50%);
+            margin-top: 0;
+            width: 162px;
+        }
+    }
 }
 @media (max-width: 1199px){
     .header-section {
@@ -1539,6 +1653,10 @@ footer{
 @media (min-width: 1199px){
     .mobile-menu {
         display: none;
+    }
+    .coming-soon .coming-area .section-header h2 {
+        font-size: 60px;
+        line-height: 66px;
     }
 }
 @media (max-width: 992px){
@@ -1557,6 +1675,9 @@ footer{
     .page-header {
         padding: 150px 0;
     }
+    .coming-soon .coming-thumb {
+        margin-bottom: 0;
+    }
 }
 @media (max-width: 1400px) {
     .team-section .team-bottom .team-bottom-area .team-item .team-item-inner .team-thumb{
@@ -1570,6 +1691,15 @@ footer{
     ul.codex.icon-style-list{
         &:last-child{
             display: none;
+        }
+    }
+}
+@media (min-width: 768px){
+    
+    .coming-soon .coming-area .section-header {
+        text-align: left;
+        p {
+            margin-left: 0;
         }
     }
 }

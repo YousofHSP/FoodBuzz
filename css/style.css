@@ -1434,6 +1434,97 @@ footer .news_letter ul.follow_us a {
   background: #362725;
 }
 
+.coming-soon {
+  background: #f7f1e9;
+  padding: 100px 0;
+}
+.coming-soon .coming-area .section-header {
+  margin-bottom: 0;
+}
+.coming-soon .coming-area .section-header p {
+  max-width: 450px;
+}
+.coming-soon .coming-area .section-wrapper .countdown {
+  margin: 50px 0 0;
+}
+.coming-soon .coming-area .section-wrapper .countdown li {
+  padding: 0;
+  text-align: center;
+}
+.coming-soon .coming-area .section-wrapper .countdown li h3 {
+  padding: 0 25px;
+  margin-bottom: 0;
+  color: #ff739c;
+  position: relative;
+}
+.coming-soon .coming-area .section-wrapper .countdown li h3::after {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content: ":";
+  color: #362725;
+  position: absolute;
+}
+.coming-soon .coming-area .section-wrapper .countdown li p {
+  margin-top: 20px;
+  color: #362725;
+}
+.coming-soon .coming-area .section-wrapper .news-letter {
+  padding: 0;
+  margin-top: 20px;
+}
+.coming-soon .coming-area .section-wrapper .news-letter .section-wrapper {
+  background: #fff;
+}
+.coming-soon .coming-area .section-wrapper .news-letter .section-wrapper .news-form {
+  width: 100%;
+  text-align: center;
+}
+.coming-soon .coming-area .section-wrapper .news-letter .section-wrapper .news-form form {
+  position: relative;
+  border-radius: 3px;
+  background: #fff;
+  width: 100%;
+}
+.coming-soon .coming-area .section-wrapper .news-letter .section-wrapper .news-form form label {
+  width: 100%;
+  margin-bottom: 0;
+  position: relative;
+  display: inline-block;
+}
+.coming-soon .coming-area .section-wrapper .news-letter .section-wrapper .news-form form label input[type=email] {
+  padding: 20px;
+  padding-left: 50px;
+}
+.coming-soon .coming-area .section-wrapper .news-letter .section-wrapper .news-form form label input {
+  margin-bottom: 0;
+  border: none;
+  outline: none;
+}
+.coming-soon .coming-area .section-wrapper .news-letter .section-wrapper .news-form form label i {
+  content: "\efb4";
+  width: 30px;
+  height: 30px;
+  top: 18px;
+  left: 10px;
+  text-align: center;
+  font-size: 24px;
+  color: #d60231;
+  font-family: IcoFont !important;
+  position: absolute;
+}
+.coming-soon .coming-area .section-wrapper .news-letter .section-wrapper .news-form form input[type=submit] {
+  font-size: 15px;
+  font-weight: 700;
+  height: 54px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #d60231;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
 @media (min-width: 576px) {
   .section-header {
     margin-bottom: 50px;
@@ -1450,6 +1541,21 @@ footer .news_letter ul.follow_us a {
   .booking-table .section-wrapper form input, .booking-table .section-wrapper form .res-tab {
     width: calc(50% - 15px);
   }
+  .coming-soon .coming-area .section-wrapper .news-letter .section-wrapper .news-form form label input[type=email] {
+    padding-right: 170px;
+  }
+  .coming-soon .coming-area .section-wrapper .news-letter .section-wrapper .news-form form label i {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .coming-soon .coming-area .section-wrapper .news-letter .section-wrapper .news-form form input[type=submit] {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    margin-top: 0;
+    width: 162px;
+  }
 }
 @media (max-width: 1199px) {
   .header-section {
@@ -1459,6 +1565,10 @@ footer .news_letter ul.follow_us a {
 @media (min-width: 1199px) {
   .mobile-menu {
     display: none;
+  }
+  .coming-soon .coming-area .section-header h2 {
+    font-size: 60px;
+    line-height: 66px;
   }
 }
 @media (max-width: 992px) {
@@ -1477,6 +1587,9 @@ footer .news_letter ul.follow_us a {
   .page-header {
     padding: 150px 0;
   }
+  .coming-soon .coming-thumb {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 1400px) {
   .team-section .team-bottom .team-bottom-area .team-item .team-item-inner .team-thumb {
@@ -1489,6 +1602,14 @@ footer .news_letter ul.follow_us a {
 @media (min-width: 1400px) {
   ul.codex.icon-style-list:last-child {
     display: none;
+  }
+}
+@media (min-width: 768px) {
+  .coming-soon .coming-area .section-header {
+    text-align: left;
+  }
+  .coming-soon .coming-area .section-header p {
+    margin-left: 0;
   }
 }
 
