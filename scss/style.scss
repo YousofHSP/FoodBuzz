@@ -1607,6 +1607,26 @@ footer{
     }
 }
 
+.fore-zero{
+    padding: 120px 0;
+    background-image: url("../assets/images/404/bg-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    .fore-zero-content {
+        h2 span {
+            color: #d60231;
+        }
+        h3 {
+            line-height: 1.3;
+            font-size: 36px;
+        }
+        p {
+            margin-bottom: 25px;
+        }
+    }
+}
+
 @media (min-width: 576px) {
     .section-header {
         margin-bottom: 50px;
