@@ -414,6 +414,39 @@ img {
   font-size: 14px;
   text-align: right;
 }
+.header-bottom .menu-area .cart-area .cart-content .cart-scr-bottom {
+  text-align: center;
+  padding: 15px;
+}
+.header-bottom .menu-area .cart-area .cart-content .cart-scr-bottom .food-btn {
+  padding: 3px 20px;
+}
+.header-bottom .menu-area .cart-area .cart-content .cart-scr-bottom ul {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 0;
+  padding: 20px 0;
+}
+.header-bottom .menu-area .cart-area .cart-content .cart-scr-bottom ul li {
+  justify-content: flex-end;
+  width: 100%;
+  padding: 2px 10px;
+  font-weight: normal;
+  line-height: 1.5;
+  display: flex;
+}
+.header-bottom .menu-area .cart-area .cart-content .cart-scr-bottom ul li .title {
+  text-align: left;
+  width: 50%;
+}
+.header-bottom .menu-area .cart-area .cart-content .cart-scr-bottom ul li .price {
+  width: 50%;
+  text-align: right;
+}
+.header-bottom .menu-area .cart-area .cart-content .cart-scr-bottom ul li:last-child {
+  font-weight: 700;
+  color: #362725;
+}
 .header-bottom .menu-item-has-children {
   margin-right: 13px;
   position: relative;
@@ -679,6 +712,15 @@ select option {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 120px 0;
+}
+.booking-table.style-2 {
+  background: #fffaf4;
+}
+.booking-table.style-2 .section-header span {
+  color: #d60231;
+}
+.booking-table.style-2 .section-header h2 {
+  color: black;
 }
 .booking-table span, .booking-table h2 {
   color: white;
