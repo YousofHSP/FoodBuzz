@@ -1585,6 +1585,64 @@ footer .news_letter ul.follow_us a {
   margin-bottom: 25px;
 }
 
+.products.style-2 {
+  padding: 120px 0;
+}
+.products.style-2 .section-wrapper .tab-bar {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.products.style-2 .section-wrapper .product-item {
+  margin: 5px;
+}
+
+.foodlist-item {
+  margin-bottom: 60px;
+  width: 1170px;
+}
+
+.common-ajax .food-btn {
+  width: 130px;
+  padding: 10px;
+  background: #d60231 !important;
+  cursor: pointer;
+  margin-top: 25px !important;
+}
+.common-ajax .loading-msg {
+  display: none;
+}
+.common-ajax.loading .loading-msg {
+  display: block;
+}
+.common-ajax.loading .default-msg {
+  display: none;
+}
+
+.paginations {
+  margin: 40px 0;
+}
+.paginations ul li {
+  padding: 5px;
+}
+.paginations ul li a {
+  display: flex;
+  flex-wrap: wrap;
+  width: 46px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 4px rgba(10, 31, 68, 0.1);
+  color: #696969;
+  z-index: 1;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.paginations ul li a:hover {
+  background-color: #d60231;
+  color: white;
+}
+
 @media (min-width: 576px) {
   .section-header {
     margin-bottom: 50px;
@@ -1648,6 +1706,9 @@ footer .news_letter ul.follow_us a {
     padding: 150px 0;
   }
   .coming-soon .coming-thumb {
+    margin-bottom: 0;
+  }
+  .paginations {
     margin-bottom: 0;
   }
 }
