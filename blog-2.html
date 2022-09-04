@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FoodBuzz</title>
+</head>
+<body>
+    <div class="mobile-menu">
+        <nav class="mobile-header">
+            <div class="header-logo">
+                <a href="index.html"><img src="assets/images/logo/1.png" alt="logo"></a>
+            </div>
+            <div class="header-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <nav class="mobile-menu">
+            <div class="mobile-menu-area">
+                <div class="mobile-menu-area-inner">
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="menu-item-has-children"><a href="#">Pages</a>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="coming-soon.html">Coming Soon</a></li>
+                                <li><a href="404.html">404</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">Food Menu</a>
+                            <ul>
+                                <li><a href="menu-card.html">Menu Card</a></li>
+                                <li><a href="menu-card-2.html">Menu Card 2</a></li>
+                                <li><a href="menu-card-3.html">Menu Card 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="reserv.html">Reservation</a></li>
+                        <li class="menu-item-has-children"><a href="#">Blog</a>
+                            <ul>
+                                <li><a href="blog.html">Blog Style 1</a></li>
+                                <li><a href="blog-2.html">Blog Style 2</a></li>
+                                <li><a href="blog-single.html">Blog Single</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">Shop</a>
+                            <ul>
+                                <li><a href="shop-page.html">Shop Page</a></li>
+                                <li><a href="shop-single.html">Shop Single</a></li>
+                                <li><a href="cart-page.html">Cart Page</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <header class="header-section">
+        <div class="header-top">
+            <div class="container d-flex">
+                <ul class="left d-flex align-items-center m-0">
+                    <li>
+                        <i class="bi bi-clock"></i>
+                        Sun-Fri: 9am-6pm Saterday Closed
+                    </li>
+                    <li>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        60/A Soft Road 24th Street, NY 1200
+                    </li>
+                    <li>
+                        <i class="bi bi-headset"></i>
+                        Support@foodbuzz.com
+                    </li>
+                </ul>
+                <ul class="right d-flex align-items-center m-0">
+                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="#"><i class="bi bi-wifi"></i></a></li>
+                    <li><a href="#"><i class="bi bi-telegram"></i></a></li>
+                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="primary-menu d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <a href="./index.html">
+                            <img src="./assets/images/logo/1.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="menu-area">
+                        <div class="main-menu d-flex align-items-center">
+                            <ul class="d-flex m-0">
+                                <li class="active">
+                                    <a href="./index.html">Home</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="./Pages">Pages</a>
+                                    <ul>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="coming-soon.html">Coming Soon</a></li>
+                                        <li><a href="404.html">404</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Food Menu</a>
+                                    <ul>
+                                        <li><a href="menu-card.html">Menu Card</a></li>
+                                        <li><a href="menu-card-2.html">Menu Card 2</a></li>
+                                        <li><a href="menu-card-3.html">Menu Card 3</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="./reserv.html">Reservation</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Blog</a>
+                                    <ul>
+                                        <li><a href="blog.html">Blog Style 1</a></li>
+                                        <li><a href="blog-2.html">Blog Style 2</a></li>
+                                        <li><a href="blog-single.html">Blog Single</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Shop</a>
+                                    <ul>
+                                        <li><a href="shop-page.html">Shop Page</a></li>
+                                        <li><a href="shop-single.html">Shop Single</a></li>
+                                        <li><a href="cart-page.html">Cart Page</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="./contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cart-search">
+                            <ul class="d-flex m-0">
+                                <li class="search">
+                                    <i class="bi bi-search"></i>
+                                </li>
+                                <li class="cart cart-area position-relative">
+                                    <div class="cart-icon">
+                                        <i class="bi bi-cart3"></i>
+                                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                            4
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </div>
+                                    <div class="cart-content">
+                                        <div class="cart-title">
+                                            <div class="add-item">4 Items Added</div>
+                                            <div class="list-close"><a href="#">Close</a></div>
+                                        </div>
+                                        <div class="cart-scr scrollbar">
+                                            <div class="cart-con-item">
+                                                <div class="cart-item">
+                                                    <div class="cart-inner">
+                                                        <div class="cart-top">
+                                                            <div class="thumb">
+                                                                <a href="#"><img src="assets/images/products/01.jpg" alt=""></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <a href="#">Split Remedy Split End Shampoo</a>
+                                                            </div>
+                                                            <div class="remove-btn">
+                                                                <a href="#"><i class="bi bi-x"></i></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cart-bottom">
+                                                            <div class="sing-price">Tk. 140</div>
+                                                            <div class="cart-plus-minus"><div class="dec qtybutton">-</div><div class="dec qtybutton">-</div>
+                                                                <div class="dec qtybutton">-</div>
+                                                                <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
+                                                                <div class="inc qtybutton">+</div>
+                                                            <div class="inc qtybutton">+</div><div class="inc qtybutton">+</div></div>
+                                                            <div class="total-price">Tk. 280.00</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-item">
+                                                    <div class="cart-inner">
+                                                        <div class="cart-top">
+                                                            <div class="thumb">
+                                                                <a href="#"><img src="assets/images/products/02.jpg" alt=""></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <a href="#">Split Remedy Split End Shampoo</a>
+                                                            </div>
+                                                            <div class="remove-btn">
+                                                                <a href="#"><i class="bi bi-x"></i></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cart-bottom">
+                                                            <div class="sing-price">Tk. 140</div>
+                                                            <div class="cart-plus-minus"><div class="dec qtybutton">-</div><div class="dec qtybutton">-</div>
+                                                                <div class="dec qtybutton">-</div>
+                                                                <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
+                                                                <div class="inc qtybutton">+</div>
+                                                            <div class="inc qtybutton">+</div><div class="inc qtybutton">+</div></div>
+                                                            <div class="total-price">Tk. 280.00</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-item">
+                                                    <div class="cart-inner">
+                                                        <div class="cart-top">
+                                                            <div class="thumb">
+                                                                <a href="#"><img src="assets/images/products/03.jpg" alt=""></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <a href="#">Split Remedy Split End Shampoo</a>
+                                                            </div>
+                                                            <div class="remove-btn">
+                                                                <a href="#"><i class="bi bi-x"></i></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cart-bottom">
+                                                            <div class="sing-price">Tk. 140</div>
+                                                            <div class="cart-plus-minus"><div class="dec qtybutton">-</div><div class="dec qtybutton">-</div>
+                                                                <div class="dec qtybutton">-</div>
+                                                                <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
+                                                                <div class="inc qtybutton">+</div>
+                                                            <div class="inc qtybutton">+</div><div class="inc qtybutton">+</div></div>
+                                                            <div class="total-price">Tk. 280.00</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-item">
+                                                    <div class="cart-inner">
+                                                        <div class="cart-top">
+                                                            <div class="thumb">
+                                                                <a href="#"><img src="assets/images/products/04.jpg" alt=""></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <a href="#">Split Remedy Split End Shampoo</a>
+                                                            </div>
+                                                            <div class="remove-btn">
+                                                                <a href="#"><i class="bi bi-x"></i></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cart-bottom">
+                                                            <div class="sing-price">Tk. 140</div>
+                                                            <div class="cart-plus-minus"><div class="dec qtybutton">-</div><div class="dec qtybutton">-</div>
+                                                                <div class="dec qtybutton">-</div>
+                                                                <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
+                                                                <div class="inc qtybutton">+</div>
+                                                            <div class="inc qtybutton">+</div><div class="inc qtybutton">+</div></div>
+                                                            <div class="total-price">Tk. 280.00</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cart-scr-bottom">
+                                            <ul>
+                                                <li>
+                                                    <div class="title">Subtotal</div>
+                                                    <div class="price">Tk. 1045.00</div>
+                                                </li>
+                                                <li>
+                                                    <div class="title">Shipping</div>
+                                                    <div class="price">Tk. 40.00</div>
+                                                </li>
+                                                <li>
+                                                    <div class="title">Cart Total</div>
+                                                    <div class="price">Tk. 1085.00</div>
+                                                </li>
+                                            </ul>
+                                            <a href="#" class="food-btn"><span>Place Order</span></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="page-header style-2">
+        <div class="container">
+            <div class="page-title text-center">
+                <h3>Blog Grid View</h3>
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Blog 2</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="blog-section blog-page">
+        <div class="container">
+            <div class="section-wrapper">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-12">
+                        <article>
+                            <div class="row justify-content-center">
+                                
+                            </div>
+                        </article>
+                        <div class="paginations">
+                            <ul class="d-flex flex-wrap justify-content-center">
+                                <li>
+                                    <a href="#">1</a>
+                                </li>
+                                <li class="d-none d-sm-block">
+                                    <a href="#">2</a>
+                                </li>
+                                <li class="d-none d-sm-block">
+                                    <a href="#">3</a>
+                                </li>
+                                <li>
+                                    <a class="dot">...</a>
+                                </li>
+                                <li class="d-none d-sm-block">
+                                    <a href="#">9</a>
+                                </li>
+                                <li class="d-none d-sm-block">
+                                    <a href="#">10</a>
+                                </li>
+                                <li>
+                                    <a href="#">11</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-7 col-12">
+                        <aside>
+                            <div class="widget widget-search">
+                                <div class="search-wrapper">
+                                    <input type="text" name="s" placeholder="Your Search...">
+                                    <button type="submit"><i class="bi bi-search"></i></button>
+                                </div>
+                            </div>
+                            <div class="widget widget-category">
+                                <div class="widget-header">
+                                    <h5>Post Categorys</h5>
+                                </div>
+                                <ul class="widget-wrapper">
+                                    <li>
+                                        <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>Themeforest</span><span>06</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>Photodune</span><span>11</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>Codecanyon</span><span>07</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>GRaphicdriver</span><span>09</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>Wordpress</span><span>50</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>Joomla</span><span>20</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>3docean</span><span>93</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>Themeforest</span><span>27</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="widget widget-post">
+                                <div class="widget-header">
+                                    <h5>Most Popular Post</h5>
+                                </div>
+                                <ul class="widget-wrapper">
+                                    <li class="d-flex flex-wrap justify-content-between">
+                                        <div class="post-thumb">
+                                            <a href="#"><img src="assets/images/blog/01.jpg" alt="product"></a>
+                                        </div>
+                                        <div class="post-content">
+                                            <h6><a href="#">Foulate Revunry And Mhare Fnger Tache Fanny</a></h6>
+                                            <p>04 February 2019</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between">
+                                        <div class="post-thumb">
+                                            <a href="#"><img src="assets/images/blog/02.jpg" alt="product"></a>
+                                        </div>
+                                        <div class="post-content">
+                                            <h6><a href="#">Foulate Revunry And Mhare Fnger Tache Fanny</a></h6>
+                                            <p>04 February 2019</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between">
+                                        <div class="post-thumb">
+                                            <a href="#"><img src="assets/images/blog/03.jpg" alt="product"></a>
+                                        </div>
+                                        <div class="post-content">
+                                            <h6><a href="#">Foulate Revunry And Mhare Fnger Tache Fanny</a></h6>
+                                            <p>04 February 2019</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between">
+                                        <div class="post-thumb">
+                                            <a href="#"><img src="assets/images/blog/04.jpg" alt="product"></a>
+                                        </div>
+                                        <div class="post-content">
+                                            <h6><a href="#">Foulate Revunry And Mhare Fnger Tache Fanny</a></h6>
+                                            <p>04 February 2019</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="widget widget-archive">
+                                <div class="widget-header">
+                                    <h5>FoodBuzz Archives</h5>
+                                </div>
+                                <ul class="widget-wrapper">
+                                    <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>January</span><span>2019</span></a> </li>
+                                    <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>February</span><span>2018</span></a></li>
+                                    <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>March</span><span>2017</span></a></li>
+                                    <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>April</span><span>2016</span></a></li>
+                                    <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>June</span><span>2015</span></a></li>
+                                    <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>July</span><span>2014</span></a></li>
+                                    <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="bi bi-chevron-double-right"></i>August</span><span>2013</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="widget widget-instagram">
+                                <div class="widget-header">
+                                    <h5>FoodBuzz instagram</h5>
+                                </div>
+                                <ul class="widget-wrapper d-flex flex-wrap justify-content-center">
+                                    <li><a href="#"><img src="assets/images/blog/08.jpg" alt="product"></a></li>
+                                    <li><a href="#"><img src="assets/images/blog/02.jpg" alt="product"></a></li>
+                                    <li><a href="#"><img src="assets/images/blog/03.jpg" alt="product"></a></li>
+                                    <li><a href="#"><img src="assets/images/blog/04.jpg" alt="product"></a></li>
+                                    <li><a href="#"><img src="assets/images/blog/05.jpg" alt="product"></a></li>
+                                    <li><a href="#"><img src="assets/images/blog/06.jpg" alt="product"></a></li>
+                                    <li><a href="#"><img src="assets/images/blog/07.jpg" alt="product"></a></li>
+                                    <li><a href="#"><img src="assets/images/blog/08.jpg" alt="product"></a></li>
+                                    <li><a href="#"><img src="assets/images/blog/09.jpg" alt="product"></a></li>
+                                </ul>
+                            </div>
+                            <div class="widget widget-tags">
+                                <div class="widget-header">
+                                    <h5>Popular Tags</h5>
+                                </div>
+                                <ul class="widget-wrapper">
+                                    <li><a href="#">envato</a></li>
+                                    <li><a href="#">themeforest</a></li>
+                                    <li><a href="#">codecanyon</a></li>
+                                    <li><a href="#">videohive</a></li>
+                                    <li><a href="#">audiojungle</a></li>
+                                    <li><a href="#">3docean</a></li>
+                                    <li><a href="#">envato</a></li>
+                                    <li><a href="#">themeforest</a></li>
+                                    <li><a href="#">codecanyon</a></li>
+                                </ul>
+                            </div>
+                            <div class="widget widget-banner">
+                                <div class="widget-header">
+                                    <h5>Add Banner Place</h5>
+                                </div>
+                                <ul class="widget-wrapper d-flex flex-wrap justify-content-center">
+                                    <li><a href="#"><img src="assets/images/blog/08.jpg" alt="product"></a></li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="news_link">
+        <div class="container">
+            <div class="order-content">
+                <div class="content-logo">
+                    <a href="#">
+                        <img src="assets/images/logo/02.png" alt="logo">
+                        <p>Good Food For Good Helts</p>
+                    </a>
+                </div>
+                <div class="content-link">
+                    <ul>
+                        <li>
+                            <h5>Work with best resturant theme</h5>
+                        </li>
+                        <li>
+                            <a href="#" class="food-btn style-2">
+                                <span>Order Now</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <div class="contant-info">
+                        <h5>Contact info</h5>
+                        <ul class="info">
+                            <li>
+                                <i class="bi bi-house-fill"></i>
+                                <span>Suite 02 Level Tropical Center</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-telephone-fill"></i>
+                                <span>+880 1234 567890, 025984712</span>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-globe"></i>
+                                    <span>www.foodbuzz@gmail,com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-headphones"></i>
+                                    <span>support@codexcoder.com</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <div class="opening-time">
+                        <h5>Opening Hours</h5>
+                        <ul>
+                            <li>
+                                <p><i class="bi bi-clock"></i>Saterday</p>
+                                <span>06:00 am - 08:00 pm</span>
+                            </li>
+                            <li>
+                                <p><i class="bi bi-clock"></i>Sunday</p>
+                                <span>09:00 am - 02:00 pm</span>
+                            </li>
+                            <li>
+                                <p><i class="bi bi-clock"></i>Monday</p>
+                                <span>07:00 am - 09:00 pm</span>
+                            </li>
+                            <li>
+                                <p><i class="bi bi-clock"></i>Tuesday</p>
+                                <span>02:00 am - 06:00 pm</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <div class="news_letter">
+                        <h5>Subscribe Newsletter</h5>
+                        <p>
+                            Sign Up For Our Latest News &amp; Articles. 
+                            We Wont Give You Spam Mails.
+                        </p>
+                        <div class="contact-search">
+                            <form class="searchForm" method="get" action="0">              
+                                <input class="searchTerm" placeholder="Your Email" autocomplete="off">
+                                <input type="submit" class="searchBtn" value="Subscribe!"> 
+                            </form> 
+                        </div>
+                        <ul class="follow_us">
+                            <li>
+                                <p>Follow Us : </p>
+                            </li>
+                            <li>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="bi bi-wifi"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="bi bi-globe"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="bi bi-behance"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="fotter-header">
+        <header>
+            <div class="footer-bg">
+                <div class="container">
+                    <div class="header-item">
+                        <div class="header-logo">
+                            <p>© 2020<a href="index.html">FoodBuzz</a>Designed by<a href="https://themeforest.net/user/labartisan">Labartisan</a></p>
+                        </div>
+                        <div class="header-menu d-none d-lg-block">
+                            <nav class="primary-menu">
+                                <div class="main-menu-area">
+                                    <ul class="main-menu">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Food Menu</a></li>
+                                        <li><a href="#">Pages</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Shop</a></li>
+                                        <li><a href="#">Elements</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- <div class="footer-bottom"></div> -->
+    </div>
+
+    <a href="#" class="scrollToTop" style="bottom: 10%; opacity: 1; transition: all 0.5s ease 0s;">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script>
+        new Swiper('.client-swiper', {
+            direction: 'horizontal',
+            loop: true,
+            pagination: {
+                type: 'bullets',
+                el: '.swiper-pagination',
+                clickable: true,
+                
+            },
+        });
+        new Swiper('.sponsor-swiper', {
+            direction: 'horizontal',
+            slidesPerView: 6,
+            loop: true,
+        });
+    </script>
+    <script src="./js/index.js"></script>
+    <script>
+        var articles = [
+            {
+                title: "Business Ueporting Rouncil Them Could Plan...",
+                image: "assets/images/blog/01.jpg",
+                date: "July 12, 2019",
+                user: "Somrat Islam",
+                des: "Pluoresntly customize pranci an plcentered  customer service anding strategic amerials Interacvely cordinate performe",
+                comments: 4
+            },
+            {
+                title: "Financial Reporting Qouncil What Could More...",
+                image: "assets/images/blog/02.jpg",
+                date: "July 12, 2019",
+                user: "Somrat Islam",
+                des: "Pluoresntly customize pranci an plcentered  customer service anding strategic amerials Interacvely cordinate performe",
+                comments: 4
+            },
+            {
+                title: "Business Ueporting Rouncil Them Could Plan...",
+                image: "assets/images/blog/03.jpg",
+                date: "July 12, 2019",
+                user: "Somrat Islam",
+                des: "Pluoresntly customize pranci an plcentered  customer service anding strategic amerials Interacvely cordinate performe",
+                comments: 4
+            },
+            {
+                title: "Business Ueporting Rouncil Them Could Plan...",
+                image: "assets/images/blog/04.jpg",
+                date: "July 12, 2019",
+                user: "Somrat Islam",
+                des: "Pluoresntly customize pranci an plcentered  customer service anding strategic amerials Interacvely cordinate performe",
+                comments: 4
+            },
+            {
+                title: "Business Ueporting Rouncil Them Could Plan...",
+                image: "assets/images/blog/05.jpg",
+                date: "July 12, 2019",
+                user: "Somrat Islam",
+                des: "Pluoresntly customize pranci an plcentered  customer service anding strategic amerials Interacvely cordinate performe",
+                comments: 4
+            },
+            {
+                title: "Business Ueporting Rouncil Them Could Plan...",
+                image: "assets/images/blog/06.jpg",
+                date: "July 12, 2019",
+                user: "Somrat Islam",
+                des: "Pluoresntly customize pranci an plcentered  customer service anding strategic amerials Interacvely cordinate performe",
+                comments: 4
+            },
+        ];
+        var articlesEls = [];
+        $(document).ready(function () {
+            articles.forEach(a => {
+                var el = `
+                <div class="col-sm-6 col-12">
+                        <div class="post-item">
+                            <div class="post-item-inner">
+                                <div class="post-thumb">
+                                    <a href="blog-single.html"><img src=${a.image} alt="lab-blog"></a>
+                                </div>
+                                <div class="post-content">
+                                    <h5><a href="blog-single.html">${a.title}</a></h5>
+                                    <div class="author-date">
+                                        <a href="#" class="date"><i class="bi bi-calendar-event-fill"></i>${a.date}</a>
+                                        <a href="#" class="admin"><i class="bi bi-person-fill"></i>${a.user}</a>
+                                    </div>
+                                    <p>${a.des}</p>
+                                    <div class="post-footer">
+                                        <a href="blog-single.html" class="text-btn">Read More<i class="bi bi-chevron-double-right"></i></a>
+                                        <a href="#" class="comments"><i class="bi bi-chat-square-text-fill"></i><span>${a.comments}</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `
+                articlesEls.push(el);
+            });
+            $(".blog-section .row article > .row").prepend(articlesEls);
+        });
+    </script>
+
+</body>
+</html>
