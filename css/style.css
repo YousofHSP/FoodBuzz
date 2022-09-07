@@ -2400,9 +2400,119 @@ th {
   color: #d60231;
 }
 
+article {
+  display: block;
+}
+
 .shop-page {
   background: #fafafa;
   padding: 120px 0;
+}
+.shop-page.single {
+  background: white;
+}
+.shop-page.single .section-wrapper .shop-single .shop-single-content .title {
+  padding-bottom: 17px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.shop-page.single .section-wrapper .shop-single .shop-single-content .title h5 {
+  margin-bottom: 7px;
+}
+.shop-page.single .section-wrapper .shop-single .shop-single-content .title h5 a {
+  clear: both;
+  font-weight: 600;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+  color: #362725;
+  text-transform: capitalize;
+}
+.shop-page.single .section-wrapper .shop-single .shop-single-content .title .p-food-group {
+  margin: 10px 0;
+}
+.shop-page.single .section-wrapper .shop-single .shop-single-content .desc {
+  margin-top: 25px;
+}
+.shop-page.single .section-wrapper .shop-single .shop-single-content .desc ul li {
+  padding-left: 25px;
+  position: relative;
+}
+.shop-page.single .section-wrapper .shop-single .shop-single-content .desc ul li i {
+  font-family: IcoFont !important;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  top: 8px;
+  left: 0;
+  text-align: center;
+  color: #d60231;
+  position: absolute;
+}
+.shop-page.single .section-wrapper .shop-single .shop-single-content .desc .quyality {
+  margin-top: 15px;
+}
+.shop-page.single .section-wrapper .shop-single .shop-single-content .desc .quyality p span {
+  color: #362725;
+  font-weight: 700;
+}
+.shop-page.single .section-wrapper .shop-single .gallery-top img {
+  width: 100%;
+  border-radius: 10px;
+}
+.shop-page.single .section-wrapper .shop-single .gallery-thumbs .swiper-slide.swiper-slide-visible.swiper-slide-thumb-active {
+  filter: grayscale(100%);
+}
+
+.food-quyality {
+  box-shadow: 0 0 10px rgba(136, 136, 136, 0.1);
+  margin: 30px 0;
+}
+.food-quyality .section-header {
+  text-align: center;
+}
+.food-quyality .section-header p span {
+  color: #362725;
+  font-weight: 500;
+}
+.food-quyality .section-wrapper {
+  padding: 20px 30px;
+}
+.food-quyality .section-wrapper label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.food-quyality .section-wrapper label input {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid #e6e6e6;
+}
+.food-quyality .section-wrapper ul {
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.food-quyality .section-wrapper ul li {
+  margin: 5px;
+}
+.food-quyality .section-wrapper ul li:first-child {
+  margin-left: 0;
+}
+.food-quyality .section-wrapper ul li a {
+  color: #696969;
+}
+.food-quyality .section-wrapper ul li a i {
+  margin-right: 10px;
+  color: #d60231;
+}
+
+.single .section-wrapper .popular-chef-widget .section-header {
+  margin-bottom: 10px;
+  padding: 22px 0;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
 }
 
 .shop-product-wrap .product-item:hover .product-thumb::after, .shop-product-wrap .product-list-item:hover .product-thumb::after {
@@ -2537,6 +2647,149 @@ th {
   color: #d60231;
 }
 
+.review {
+  padding: 120px 0;
+}
+.review .section-wrapper .related {
+  margin-top: 0;
+}
+.review .section-wrapper .related ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.review .section-wrapper .related .tab-bar {
+  padding: 0;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.review .section-wrapper .related .tab-bar .tablinks {
+  padding: 10px 25px;
+  background: #e6e6e6;
+  margin: 5px;
+  border: 1px solid #e6e6e6;
+  cursor: pointer;
+  position: relative;
+}
+.review .section-wrapper .related .tab-bar .tablinks.active {
+  background: #fff;
+}
+.review .section-wrapper .related .tab-bar .tablinks.active::after {
+  right: 0;
+  transform-origin: right;
+  transform: scaleX(1);
+  position: absolute;
+  content: "";
+}
+.review .section-wrapper .related .tab-bar .tablinks::after {
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  background: #d60231;
+  transition: all 0.3s ease-in-out;
+}
+.review .section-wrapper .related .tabcontent .p-food-item .p-food-inner .food-quyality {
+  padding: 20px;
+  box-shadow: none;
+  margin: 0;
+}
+.review .section-wrapper .related .tabcontent .p-food-item .p-food-inner .food-quyality .section-header {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+}
+.review .section-wrapper .related .tabcontent .p-food-item .p-food-inner .food-quyality .section-wrapper {
+  padding: 0;
+}
+.review .section-wrapper .related .tabcontent .p-food-item .p-food-inner .food-quyality .section-wrapper .food-btn {
+  width: 100%;
+  text-align: center;
+}
+.review .section-wrapper .related .tabcontent .spe-shop .tec-spe {
+  margin-top: 30px;
+}
+.review .section-wrapper .related .tabcontent .spe-shop .tec-spe ul {
+  border: 1px solid #e6e6e6;
+  display: block;
+  border-radius: 12px;
+}
+.review .section-wrapper .related .tabcontent .spe-shop .tec-spe ul li {
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  flex-wrap: wrap;
+}
+.review .section-wrapper .related .tabcontent .spe-shop .tec-spe ul li .left {
+  width: 100%;
+}
+.review .section-wrapper .related .tabcontent .review {
+  padding: 0;
+  max-width: 800px;
+}
+.review .section-wrapper .related .tabcontent .review .content {
+  display: block;
+}
+.review .section-wrapper .related .tabcontent .review .content li {
+  margin-bottom: 30px;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  flex-wrap: wrap;
+}
+.review .section-wrapper .related .tabcontent .review .content li .post-thumb {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+}
+.review .section-wrapper .related .tabcontent .review .content li .post-thumb img {
+  border-radius: 100%;
+}
+.review .section-wrapper .related .tabcontent .review .content li .post-content {
+  width: calc(100% - 120px);
+}
+.review .section-wrapper .related .tabcontent .review .content li .post-content .entry-meta {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.review .section-wrapper .related .tabcontent .review .content li .post-content .posted-on a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #362725;
+}
+.review .section-wrapper .related .tabcontent .review .content li .post-content .posted-on p {
+  margin-bottom: 0;
+}
+.review .section-wrapper .related .tabcontent .review .client-review {
+  margin-top: 40px;
+}
+.review .section-wrapper .related .tabcontent .review .client-review .review-form .review-title {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.review .section-wrapper .related .tabcontent .review .client-review form input, .review .section-wrapper .related .tabcontent .review .client-review form textarea {
+  margin-bottom: 30px;
+  border-radius: 3px;
+  padding: 7px 15px;
+  outline: none;
+  border: 1px solid #e6e6e6;
+  width: 100%;
+}
+.review .section-wrapper .related .tabcontent .review .client-review form .ratings {
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.review .section-wrapper .related .tabcontent .review .client-review form .ratings .rating-title {
+  padding-right: 10px;
+}
+
 @media (max-width: 1400px) {
   .team-section .team-bottom .team-bottom-area .team-item .team-item-inner .team-thumb {
     padding-right: 0;
@@ -2610,6 +2863,22 @@ th {
   .shop-product-wrap .product-list-item .product-content .price {
     margin-right: 15px;
   }
+  .food-quyality .section-wrapper ul li {
+    margin: 0 15px;
+  }
+  .single .section-wrapper .related .tab-bar {
+    justify-content: flex-start;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .single .section-wrapper .related .tab-bar .tablinks:first-child {
+    margin-left: 0;
+  }
+  .review .section-wrapper .related .tabcontent .spe-shop .tec-spe ul li .left {
+    width: 30%;
+  }
+  .review .section-wrapper .related .tabcontent .spe-shop .tec-spe ul li .right {
+    width: 70%;
+  }
 }
 @media (min-width: 768px) {
   .coming-soon .coming-area .section-header {
@@ -2637,6 +2906,13 @@ th {
   }
   .shop-product-wrap .product-list-item .product-content {
     width: 65%;
+  }
+  .section-header p {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  .single .section-wrapper .related .tab-bar .tablinks {
+    margin: 0 5px;
   }
 }
 @media (min-width: 992px) {
@@ -2670,6 +2946,12 @@ th {
     width: 50%;
     float: left;
   }
+  .review .section-wrapper .related .tabcontent .spe-shop .tec-spe ul li .left {
+    width: 30%;
+  }
+  .review .section-wrapper .related .tabcontent .spe-shop .tec-spe ul li .right {
+    width: 70%;
+  }
 }
 @media (min-width: 1199px) {
   .mobile-menu {
@@ -2682,6 +2964,9 @@ th {
   .contact-information .section-wrapper {
     margin-bottom: -40px;
     z-index: 1;
+  }
+  .food-quyality {
+    margin-top: 0;
   }
 }
 @media (min-width: 1400px) {
